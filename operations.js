@@ -7,10 +7,14 @@ var suma = function suma (a, b) {
 var resta = function suma (a, b) {
 	return a - b;	
 };
+/*Función esPar */
+ function esPar(numero) {
+  return numero % 2 === 0;
+};
+
 
 /* Exportación de funciones */
 module.exports = {
-	suma,
-	resta
+	esPar
 }
 
